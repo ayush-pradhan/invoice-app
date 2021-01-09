@@ -1,4 +1,4 @@
-# Getting Started with Invoice-App
+# Invoice-App
 
 Install all the dependencies with: npm install
 
