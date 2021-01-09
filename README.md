@@ -1,6 +1,6 @@
 # Getting Started with Invoice-App
 
-Install all the dependecies with: npm install
+Install all the dependencies with: npm install
 
 ## First page is Sign Up
 
