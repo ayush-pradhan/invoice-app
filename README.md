@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Getting Started with Invoice-App
 
 Install all the dependecies with: npm install
 
