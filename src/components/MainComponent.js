@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import UserForm from "./UserForm";
 import SignUp from "./SignUp";
 import SignIn from "./SignIn";
-// import Invoice from "./Invoice";
+import Invoice from "./Invoice/Invoice";
 
 class Main extends Component {
   render() {
@@ -16,7 +16,7 @@ class Main extends Component {
           <Route exact path="/" component={SignUp} />
           <Route exact path="/SignIn" component={SignIn} />
           <Route exact path="/UserForm" component={UserForm} />
-          {/* <Route exact path="/Invoice" component={Invoice} /> */}
+          <Route exact path="/Invoice" component={Invoice} />
           {/* <Route exact path="/aboutus" component={About} />
           <Route exact path="/services" component={Services} />
           <Route path="/appointment" component={Appointment} />
