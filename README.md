@@ -14,6 +14,7 @@ When you'll Sign Up, some user onboarding pages will be shown.
 
 Fill all the details and click continue until Dashboard Button is shown
 
+
 ## Dashboard/Invoice
 
 Here you can find the invoice. Fill item name, description quantity and price and you'll get your Invoice 
