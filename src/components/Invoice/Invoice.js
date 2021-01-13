@@ -1,13 +1,12 @@
-import React, { Component } from 'react'
+import React, { Component, useState} from 'react'
 import styles from './Invoice.module.scss'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 import LineItems from './LineItems'
 import AppBar from 'material-ui/AppBar';
 import Mountains from '../../videos/mountains.mp4';
 
-// import { v4 as uuidv4 } from 'uuid';
-
 class Invoice extends Component {
+
   
   locale = 'en-US'
   currency = 'USD'
@@ -39,7 +38,6 @@ class Invoice extends Component {
 
   handleAddLineItem = (event) => {
     this.setState({
-      // use optimistic uuid for drag drop; in a production app this could be a database id
       lineItems: this.state.lineItems.concat(
         [{ id: '', name: '', description: '', quantity: 0, price: 0.00 }]
       )
@@ -94,6 +92,7 @@ class Invoice extends Component {
   }
 
   render = () => {
+
     return (
       <MuiThemeProvider>
       <React.Fragment>
@@ -118,7 +117,7 @@ class Invoice extends Component {
         </div>
         <div className={styles.addresses}>
           <div className={styles.from}>
-            <strong>AYUSH PRADHAN</strong><br />
+            <strong>Ayush Pradhan</strong><br />
               123 Residency Road<br />
               Jammu, J&K, India &nbsp;A1B2C3<br />
               416-555-1234
@@ -196,6 +195,7 @@ class Invoice extends Component {
         </div>
 
       </div>
+      {/* </ThemeProvider> */}
       </React.Fragment>
       </MuiThemeProvider>
     )
@@ -203,4 +203,4 @@ class Invoice extends Component {
 
 }
 
-export default Invoice
+export default Invoice;
