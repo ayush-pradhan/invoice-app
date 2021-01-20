@@ -4,7 +4,7 @@
 Step 1: Install all the dependencies with- npm install
 
 Step 2: Start app with- npm start
-
+     
 ## Sign Up
 
 When you'll Sign Up, some user onboarding pages will be shown.
